@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Sree lakshmy P.S");
+    System.out.println("04/09/2006");
+    System.out.println("B COM PA");
+    System.out.println("Department of commerce");
+    System.out.println("VICAS");
+    System.out.println("Thiruchengode");
+    System.out.println("Nammakal");
+    System.out.println("Class incharge Mrs. M.Karthika");
+    System.out.println("Father's Name Mr.P.K. Shaji");
+    System.out.println("Mother's Name Mrs.P.R. Sindhu");
+  
+  }
+}
