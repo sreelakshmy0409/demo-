@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My Favourites</h2>
+
+<ul>
+  <li>Food - Briyani</li>
+  <li>Movie - Premalu </li>
+  <li>Place - Kerala</li>
+  <li>Animal - Panda</li>
+  <li>Flower - Rose</li>
+  <li>Tourist Place - Manali </li>
+  <li>Hero - Vijay</li>
+  <li>Singer - Unnikrishnan</li>
+  <li>climate - Spring</li>
+  <li>Car - BMW</li>
+</ul>  
+
+</body>
+</html>
+
