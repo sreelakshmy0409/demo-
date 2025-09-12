@@ -1,0 +1,7 @@
+public class Main {
+  public static void main(String[] args) {
+    String words = "I like to travel with my love";
+    int countWords = words.split("\\s").length;
+    System.out.println(countWords);
+  }
+}
