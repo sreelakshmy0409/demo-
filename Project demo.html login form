@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Form with Effects</title>
+    <link rel="stylesheet" href="./demo.css" />
+</head>
+<body>
+    <div class="background"></div>
+
+    <div class="login-container">
+        <form id="loginForm">
+            <h2>Login</h2>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+
+            <fieldset>
+                <legend>Account Type:</legend>
+                <label><input type="radio" name="accountType" value="User" checked /> User</label>
+                <label><input type="radio" name="accountType" value="Admin" /> Admin</label>
+            </fieldset>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="" disabled selected>Select your department</option>
+                <option value="Sales">Sales</option>
+                <option value="Development">Development</option>
+                <option value="Marketing">Marketing</option>
+                <option value="HR">HR</option>
+            </select>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div id="logOutput"></div>
+    </div>
+
+    <script src="./demo.js"></script>
+</body>
+</html>
